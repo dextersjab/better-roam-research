@@ -483,7 +483,7 @@ span.checkmark {
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover,
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
   background-color: transparent !important;
-  color: var(--c1);
+  color: var(--c1); !important
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
@@ -647,5 +647,11 @@ span.checkmark {
 .rm-help-popup,
 .rm-help-categories,
 .rm-help-search__input {
+  color: black;
+}
+
+/* code block */
+.cmt-labelName,
+.cmt-variableName {
   color: black;
 }
